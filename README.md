@@ -17,14 +17,5 @@ Preprocessing: Cleans and tokenizes text, removes stopwords and numbers.
 Model Training: Uses TF-IDF features and SVM for classification.
 Prediction: Classifies new review text.
 
-## Example
-To classify a new review:
-
-input = 'It works, but file writes are a bit slower...'
-input = preprocess_text(input)
-input = tfidf_vectorizer.transform([input])
-prediction = model.predict(input)
-print(prediction)
-
 License
 MIT License
