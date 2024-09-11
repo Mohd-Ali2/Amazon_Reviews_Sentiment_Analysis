@@ -6,7 +6,7 @@ This project performs sentiment analysis on Amazon reviews using TF-IDF and SVM.
 
 Install dependencies with:
 
-```bash
+
 pip install pandas numpy matplotlib seaborn scikit-learn nltk
 
 Usage:
